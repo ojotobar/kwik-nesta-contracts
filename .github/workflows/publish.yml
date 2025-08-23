@@ -73,7 +73,7 @@ jobs:
         run: dotnet build KwikNesta.Contracts.sln --configuration Release --no-restore --verbosity normal
 
       - name: Pack NuGet package
-        run: dotnet pack src/KwikNesta.Contracts/KwikNesta.Contracts.csproj -p:Configuration=Release -p:PackageId=KwikNesta.Contracts --no-build -o ./artifacts
+        run: dotnet pack src/KwikNesta.Contracts/KwikNesta.Contracts.csproj -p:Configuration=Release -p:PackageId=KwikNesta.Contracts.Core --no-build -o ./artifacts
 
       - name: Push package to NuGet
         run: dotnet nuget push "./artifacts/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
