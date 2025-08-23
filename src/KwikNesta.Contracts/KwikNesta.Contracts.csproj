@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<TargetFramework>net8.0</TargetFramework>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Version>0.9.9</Version>
+	<Authors>YourName</Authors>
+	<Description>Kwik Nesta services shared contracts</Description>
+  </PropertyGroup>
+  <ItemGroup>
+	  <PackageReference Include="CSharpTypes.Extensions" Version="1.0.0" />
+  </ItemGroup>
+</Project>
