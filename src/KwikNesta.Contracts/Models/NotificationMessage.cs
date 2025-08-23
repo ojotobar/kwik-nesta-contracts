@@ -12,7 +12,7 @@ namespace KwikNesta.Contracts.Models
         public string? Reason { get; set; }
         public OtpData? Otp { get; set; }
 
-        public static NotificationMessage Initialize(string email, string name, EmailType type, string? reason)
+        public static NotificationMessage Initialize(string email, string name, EmailType type, string? reason = null)
         {
             return new NotificationMessage
             {
