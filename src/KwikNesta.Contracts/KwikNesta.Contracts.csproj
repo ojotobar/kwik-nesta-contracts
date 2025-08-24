@@ -4,7 +4,6 @@
 	<Nullable>enable</Nullable>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Version>1.1.0</Version>
-	<Authors>YourName</Authors>
 	<Description>Kwik Nesta services shared contracts</Description>
 	<Authors>Ojo Toba R.</Authors>
 	<Company>Kwik Nesta Inc.</Company>
