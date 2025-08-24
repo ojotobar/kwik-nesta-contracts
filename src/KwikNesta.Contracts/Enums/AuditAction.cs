@@ -4,7 +4,7 @@ namespace KwikNesta.Contracts.Enums
 {
     public enum AuditAction
     {
-        [Description("Looged In")]
+        [Description("Logged In")]
         LoogedIn = 1,
         [Description("Logged Out")]
         LoggedOut,
