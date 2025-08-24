@@ -20,6 +20,8 @@ It exists to standardize communication and reduce duplication in distributed sys
   - `NotificationMessage.Initialize(string email, string name, EmailType type, string? reason);`  
 - **Extension Methods**
   - `ToEmailType(this OtpType type);` 
+- **Pagination**
+  - `enumerableList.Paginate(pageNumber: 2, pageSize: 10);`
 
 ---
 ## Installation
