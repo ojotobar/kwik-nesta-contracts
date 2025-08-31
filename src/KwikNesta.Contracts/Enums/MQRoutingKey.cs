@@ -7,6 +7,8 @@ namespace KwikNesta.Contracts.Enums
         [Description("account.email")]
         AccountEmail,
         [Description("audit.trails")]
-        AuditTrails
+        AuditTrails,
+        [Description("data.load")]
+        DataLoad
     }
 }
