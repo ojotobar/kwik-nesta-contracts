@@ -7,6 +7,8 @@ namespace KwikNesta.Contracts.Enums
         [Description("notification")]
         Notification,
         [Description("audit")]
-        Audit
+        Audit,
+        [Description("dataload")]
+        DataLoad
     }
 }
