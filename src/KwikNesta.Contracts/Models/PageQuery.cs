@@ -4,7 +4,7 @@
     {
         private int _page = 1;
         private int _pageSize = 10;
-        private int _maxPageSize = 50;
+        private int _maxPageSize = 200;
 
         public int Page
         {
