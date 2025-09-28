@@ -14,7 +14,7 @@ namespace KwikNesta.Contracts.Models.Location
         public string? Type { get; set; }
 
         public Guid CountryId { get; set; }
-        public KwikNestaLocationState? Country { get; set; }
+        public KwikNestaLocationCountry? Country { get; set; }
         public List<KwikNestaLocationCity> Cities { get; set; } = [];
     }
 }
