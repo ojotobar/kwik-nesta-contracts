@@ -1,6 +1,6 @@
-﻿namespace KwikNesta.Contracts.Models.Location
+﻿namespace KwikNesta.Contracts.DTOs
 {
-    public class KwikNestaState
+    public class StateDto
     {
         public Guid Id { get; set; }
         public bool IsDeprecated { get; set; }
