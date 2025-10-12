@@ -1,11 +1,11 @@
-﻿using EFCore.CrudKit.Library.Models;
-using System.ComponentModel.DataAnnotations;
-
-namespace KwikNesta.Contracts.Models.Location
+﻿namespace KwikNesta.Contracts.DTOs
 {
-    public class KwikNestaLocationCountry : EntityBase
+    public class CountryDto
     {
-        [Required]
+        public Guid Id { get; set; }
+        public bool IsDeprecated { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public DateTime UpdatedOn { get; set; }
         public string Name { get; set; } = string.Empty;
         public string ISO2 { get; set; } = string.Empty;
         public string ISO3 { get; set; } = string.Empty;
@@ -24,9 +24,6 @@ namespace KwikNesta.Contracts.Models.Location
         public string Latitude { get; set; } = string.Empty;
         public string Emoji { get; set; } = string.Empty;
         public string EmojiUnicode { get; set; } = string.Empty;
-
-        public List<KwikNestaLocationTimeZone> TimeZones { get; set; } = [];
-        public List<KwikNestaLocationState> States { get; set; } = [];
-        public List<KwikNestaLocationCity> Cities { get; set; } = [];
+        public List<TimeZoneDto> TimeZones { get; set; } = [];
     }
 }
