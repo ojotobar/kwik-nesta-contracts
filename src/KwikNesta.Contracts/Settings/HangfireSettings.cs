@@ -1,4 +1,4 @@
-﻿namespace KwikNesta.Infrastruture.Svc.API.Settings
+﻿namespace KwikNesta.Contracts.Settings
 {
     public class HangfireSettings
     {
