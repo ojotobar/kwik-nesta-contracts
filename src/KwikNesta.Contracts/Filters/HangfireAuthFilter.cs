@@ -1,5 +1,5 @@
 ﻿using Hangfire.Dashboard;
-using KwikNesta.Infrastruture.Svc.API.Settings;
+using KwikNesta.Contracts.Settings;
 using Microsoft.AspNetCore.Http;
 using System.Diagnostics.CodeAnalysis;
 
