@@ -1,6 +1,6 @@
-﻿namespace KwikNesta.Contracts.Models
+﻿namespace KwikNesta.Infrastruture.Svc.API.Settings
 {
-    public class JwtSetting
+    public class JwtSettings
     {
         public string IdentityService { get; set; } = string.Empty;
         public string Issuer { get; set; } = string.Empty;
