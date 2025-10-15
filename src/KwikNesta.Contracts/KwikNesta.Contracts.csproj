@@ -3,7 +3,7 @@
 	<TargetFramework>net8.0</TargetFramework>
 	<Nullable>enable</Nullable>
 	<ImplicitUsings>enable</ImplicitUsings>
-	<Version>1.3.3</Version>
+	<Version>1.3.4</Version>
 	<Description>Kwik Nesta services shared contracts</Description>
 	<Authors>Ojo Toba R.</Authors>
 	<Company>Kwik Nesta Inc.</Company>
