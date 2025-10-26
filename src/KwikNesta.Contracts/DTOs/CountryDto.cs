@@ -24,6 +24,7 @@
         public string Latitude { get; set; } = string.Empty;
         public string Emoji { get; set; } = string.Empty;
         public string EmojiUnicode { get; set; } = string.Empty;
+        public List<StateDto> States { get; set; } = [];
         public List<TimeZoneDto> TimeZones { get; set; } = [];
     }
 }
