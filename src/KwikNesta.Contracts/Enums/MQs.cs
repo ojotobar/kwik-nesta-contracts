@@ -9,6 +9,8 @@ namespace KwikNesta.Contracts.Enums
         [Description("audit")]
         Audit,
         [Description("dataload")]
-        DataLoad
+        DataLoad,
+        [Description("property")]
+        Property
     }
 }
