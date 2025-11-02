@@ -9,6 +9,8 @@ namespace KwikNesta.Contracts.Enums
         [Description("audit.trails")]
         AuditTrails,
         [Description("data.load")]
-        DataLoad
+        DataLoad,
+        [Description("property.notification")]
+        PropertyNotification
     }
 }
