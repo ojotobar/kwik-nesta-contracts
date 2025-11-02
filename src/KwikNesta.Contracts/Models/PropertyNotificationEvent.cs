@@ -16,7 +16,7 @@ namespace KwikNesta.Contracts.Models
         public PropertyNotificationEvent Init(string userId,
                                               string propertyTitle,
                                               PropertyNotificationType type,
-                                              string? propertyStatus,
+                                              string? propertyStatus = null,
                                               string? metaData = null,
                                               string? triggeredBy = null)
         {
